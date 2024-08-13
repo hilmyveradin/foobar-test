@@ -1,0 +1,42 @@
+name: "OTPKitDemo"
+
+############
+# Options
+############
+
+settings:
+  base:
+    MARKETING_VERSION: 0.0.1
+
+options:
+  deploymentTarget:
+    iOS: "17.0"
+
+targets:
+  OTPKitDemo:
+    info:
+      path: OTPKitDemo/Info.plist
+      properties:
+        CFBundleShortVersionString: "$(MARKETING_VERSION)"
+        NSLocationWhenInUseUsageDescription: See where you are in relation to transit, and help you navigate more easily.
+        UILaunchScreen: LaunchScreen
+    type: application
+    platform: iOS
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: "org.onebusaway.otpkitdemo"
+    sources:
+      - OTPKitDemo
+    dependencies:
+      - target: OTPKitDemo
+  OTPKitTests:
+    type: bundle.unit-test
+    platform: iOS
+    dependencies:
+      - target: OTPKitDemo
+    sources:
+      - OTPKitTests
+    info:
+      path: OTPKitTests/Info.plist
+      properties:
+        NSPrincipalClass: OTPKitTests.OTPKitTestsSetup

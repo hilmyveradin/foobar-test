@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00EAB8204A3D91CA013B0844 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A3D2655F17323FE3B4D68D4 /* Assets.xcassets */; };
+		07133EA5B456F9E8F431A4CC /* MockDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16EBF4728D4E9CAD098E40E2 /* MockDataLoader.swift */; };
+		1E571E4B7A32471023235C81 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C86368744256BE4CF8B7225 /* Preview Assets.xcassets */; };
+		46342A96D2D8393373CD729C /* Fixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D964522E1DA8A47C7D3A97 /* Fixtures.swift */; };
+		515BD4652D350362CDE577EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE66959178D9D72531A68CCB /* LaunchScreen.storyboard */; };
+		52C2D59F1FE30826DFCAF7E5 /* OTPTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0DBC00F96BA69AAEC7EA3E /* OTPTestCase.swift */; };
+		626A3E57959C182202089ADB /* OTPKitDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85901B54A6ADDC4F6572A1B /* OTPKitDemoApp.swift */; };
+		697EC079217B7D1EB9CF310A /* plan_basic_case.json in Resources */ = {isa = PBXBuildFile; fileRef = CEB9B226DC83665AA2911337 /* plan_basic_case.json */; };
+		980433F8EBE1741C1DF3C5B3 /* OTPKitTestsSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FB2F574B300C9771CCFFE8 /* OTPKitTestsSetup.swift */; };
+		A63945057622599114A8A5AE /* OTPKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA777B1599F87874A0ED490F /* OTPKitTests.swift */; };
+		BC2A158FF72B8336B1969129 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BC31C66117558D9E104FC7 /* MapView.swift */; };
+		FCF12BA57CBA9D1A80446EBE /* OTPKitDemo.app in Resources */ = {isa = PBXBuildFile; fileRef = 88F458416B4C8A76B045771E /* OTPKitDemo.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		687C598F0C8A69A96C94F6ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9920E06F6FB4F64A162A3BFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16E1AB7DEE433306E22A5783;
+			remoteInfo = OTPKitDemo;
+		};
+		86B04F84CF0F4472197202D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9920E06F6FB4F64A162A3BFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16E1AB7DEE433306E22A5783;
+			remoteInfo = OTPKitDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11FB2F574B300C9771CCFFE8 /* OTPKitTestsSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPKitTestsSetup.swift; sourceTree = "<group>"; };
+		13BC31C66117558D9E104FC7 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		16EBF4728D4E9CAD098E40E2 /* MockDataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDataLoader.swift; sourceTree = "<group>"; };
+		1E46839E465490F0132CDDB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1F0DBC00F96BA69AAEC7EA3E /* OTPTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPTestCase.swift; sourceTree = "<group>"; };
+		2A3D2655F17323FE3B4D68D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64BD7C5994C8808B988FAC1C /* OTPKitTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = OTPKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C86368744256BE4CF8B7225 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		88F458416B4C8A76B045771E /* OTPKitDemo.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = OTPKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2D964522E1DA8A47C7D3A97 /* Fixtures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fixtures.swift; sourceTree = "<group>"; };
+		B96663E1111A193B4ED470B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BA777B1599F87874A0ED490F /* OTPKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPKitTests.swift; sourceTree = "<group>"; };
+		C85901B54A6ADDC4F6572A1B /* OTPKitDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPKitDemoApp.swift; sourceTree = "<group>"; };
+		CEB9B226DC83665AA2911337 /* plan_basic_case.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = plan_basic_case.json; sourceTree = "<group>"; };
+		EE66959178D9D72531A68CCB /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0FA9003EE2D9532637FBA4E0 /* OTPKitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2A3D2655F17323FE3B4D68D4 /* Assets.xcassets */,
+				B96663E1111A193B4ED470B1 /* Info.plist */,
+				EE66959178D9D72531A68CCB /* LaunchScreen.storyboard */,
+				13BC31C66117558D9E104FC7 /* MapView.swift */,
+				C85901B54A6ADDC4F6572A1B /* OTPKitDemoApp.swift */,
+				62DEC6EADC9CEC935FF736D6 /* Preview Content */,
+			);
+			path = OTPKitDemo;
+			sourceTree = "<group>";
+		};
+		206010A28D750755892F23B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88F458416B4C8A76B045771E /* OTPKitDemo.app */,
+				64BD7C5994C8808B988FAC1C /* OTPKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49115A737D9F569A19C733FA /* OTPKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				1E46839E465490F0132CDDB4 /* Info.plist */,
+				BA777B1599F87874A0ED490F /* OTPKitTests.swift */,
+				11FB2F574B300C9771CCFFE8 /* OTPKitTestsSetup.swift */,
+				EA1FE0C3F2429DB15C8D18CC /* fixtures */,
+				6BC7FBC9471BC73487CB9767 /* Helpers */,
+			);
+			path = OTPKitTests;
+			sourceTree = "<group>";
+		};
+		62DEC6EADC9CEC935FF736D6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7C86368744256BE4CF8B7225 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6BC7FBC9471BC73487CB9767 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A2D964522E1DA8A47C7D3A97 /* Fixtures.swift */,
+				16EBF4728D4E9CAD098E40E2 /* MockDataLoader.swift */,
+				1F0DBC00F96BA69AAEC7EA3E /* OTPTestCase.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		78ED0633846762DCD4107E96 = {
+			isa = PBXGroup;
+			children = (
+				0FA9003EE2D9532637FBA4E0 /* OTPKitDemo */,
+				49115A737D9F569A19C733FA /* OTPKitTests */,
+				206010A28D750755892F23B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA1FE0C3F2429DB15C8D18CC /* fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				CEB9B226DC83665AA2911337 /* plan_basic_case.json */,
+			);
+			path = fixtures;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16E1AB7DEE433306E22A5783 /* OTPKitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96D5298DBC1921652E4C2F47 /* Build configuration list for PBXNativeTarget "OTPKitDemo" */;
+			buildPhases = (
+				01D6DA30CFF151FD24C61243 /* Sources */,
+				BA00D758E9CA20C326A470A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9D84D313DE383ACA27724A1 /* PBXTargetDependency */,
+			);
+			name = OTPKitDemo;
+			productName = OTPKitDemo;
+			productReference = 88F458416B4C8A76B045771E /* OTPKitDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6782654480E6154B963D1B85 /* OTPKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E629B2D7701A2725961FF02B /* Build configuration list for PBXNativeTarget "OTPKitTests" */;
+			buildPhases = (
+				F1E26AE4971016B7BFDD6368 /* Sources */,
+				F0146FC0C96626001655B22C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90D6D77CCCE53EB77F781CC8 /* PBXTargetDependency */,
+			);
+			name = OTPKitTests;
+			productName = OTPKitTests;
+			productReference = 64BD7C5994C8808B988FAC1C /* OTPKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9920E06F6FB4F64A162A3BFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 03818A99CA80BB600BD6860C /* Build configuration list for PBXProject "OTPKitDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 78ED0633846762DCD4107E96;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16E1AB7DEE433306E22A5783 /* OTPKitDemo */,
+				6782654480E6154B963D1B85 /* OTPKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA00D758E9CA20C326A470A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00EAB8204A3D91CA013B0844 /* Assets.xcassets in Resources */,
+				515BD4652D350362CDE577EC /* LaunchScreen.storyboard in Resources */,
+				1E571E4B7A32471023235C81 /* Preview Assets.xcassets in Resources */,
+				FCF12BA57CBA9D1A80446EBE /* OTPKitDemo.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0146FC0C96626001655B22C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				697EC079217B7D1EB9CF310A /* plan_basic_case.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01D6DA30CFF151FD24C61243 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC2A158FF72B8336B1969129 /* MapView.swift in Sources */,
+				626A3E57959C182202089ADB /* OTPKitDemoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1E26AE4971016B7BFDD6368 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46342A96D2D8393373CD729C /* Fixtures.swift in Sources */,
+				07133EA5B456F9E8F431A4CC /* MockDataLoader.swift in Sources */,
+				A63945057622599114A8A5AE /* OTPKitTests.swift in Sources */,
+				980433F8EBE1741C1DF3C5B3 /* OTPKitTestsSetup.swift in Sources */,
+				52C2D59F1FE30826DFCAF7E5 /* OTPTestCase.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		90D6D77CCCE53EB77F781CC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16E1AB7DEE433306E22A5783 /* OTPKitDemo */;
+			targetProxy = 86B04F84CF0F4472197202D6 /* PBXContainerItemProxy */;
+		};
+		C9D84D313DE383ACA27724A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16E1AB7DEE433306E22A5783 /* OTPKitDemo */;
+			targetProxy = 687C598F0C8A69A96C94F6ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12FC6226B2E0B7E0DCE284AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.0.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		2D8EBEBF87E132B2B5FC912A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OTPKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OTPKitDemo.app/OTPKitDemo";
+			};
+			name = Release;
+		};
+		3EC722A1061B07F1BE111F1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = OTPKitDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.onebusaway.otpkitdemo;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48652FB7312182935F1EB027 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OTPKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OTPKitDemo.app/OTPKitDemo";
+			};
+			name = Debug;
+		};
+		929440975F72BD572AC106D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.0.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A2A4761081881C3504FE4564 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = OTPKitDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.onebusaway.otpkitdemo;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03818A99CA80BB600BD6860C /* Build configuration list for PBXProject "OTPKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				929440975F72BD572AC106D0 /* Debug */,
+				12FC6226B2E0B7E0DCE284AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		96D5298DBC1921652E4C2F47 /* Build configuration list for PBXNativeTarget "OTPKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EC722A1061B07F1BE111F1A /* Debug */,
+				A2A4761081881C3504FE4564 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E629B2D7701A2725961FF02B /* Build configuration list for PBXNativeTarget "OTPKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48652FB7312182935F1EB027 /* Debug */,
+				2D8EBEBF87E132B2B5FC912A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9920E06F6FB4F64A162A3BFF /* Project object */;
+}
