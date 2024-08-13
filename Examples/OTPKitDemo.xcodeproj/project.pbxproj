@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -96,7 +96,7 @@
 			);
 			name = OTPKitDemo;
 			packageProductDependencies = (
-				017334902C6B679200EFD382 /* OTPKit */,
+				017334942C6B689900EFD382 /* OTPKit */,
 			);
 			productName = OTPKitDemo;
 			productReference = 88F458416B4C8A76B045771E /* OTPKitDemo.app */;
@@ -138,7 +138,7 @@
 			);
 			mainGroup = 78ED0633846762DCD4107E96;
 			packageReferences = (
-				0173348F2C6B679200EFD382 /* XCRemoteSwiftPackageReference "otpkit-test" */,
+				017334932C6B689900EFD382 /* XCLocalSwiftPackageReference ".." */,
 			);
 			projectDirPath = "";
 			projectRoot = "";
@@ -421,21 +421,16 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCRemoteSwiftPackageReference section */
-		0173348F2C6B679200EFD382 /* XCRemoteSwiftPackageReference "otpkit-test" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/hilmyveradin/otpkit-test";
-			requirement = {
-				branch = master;
-				kind = branch;
-			};
+/* Begin XCLocalSwiftPackageReference section */
+		017334932C6B689900EFD382 /* XCLocalSwiftPackageReference ".." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ..;
 		};
-/* End XCRemoteSwiftPackageReference section */
+/* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		017334902C6B679200EFD382 /* OTPKit */ = {
+		017334942C6B689900EFD382 /* OTPKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 0173348F2C6B679200EFD382 /* XCRemoteSwiftPackageReference "otpkit-test" */;
 			productName = OTPKit;
 		};
 /* End XCSwiftPackageProductDependency section */
