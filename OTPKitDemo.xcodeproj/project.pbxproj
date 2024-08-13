@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 54;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -142,6 +142,9 @@
 				C9D84D313DE383ACA27724A1 /* PBXTargetDependency */,
 			);
 			name = OTPKitDemo;
+			packageProductDependencies = (
+				01E8E18D2C6B4B89000CCC2A /* OTPKit */,
+			);
 			productName = OTPKitDemo;
 			productReference = 88F458416B4C8A76B045771E /* OTPKitDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -171,8 +174,6 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1430;
-				TargetAttributes = {
-				};
 			};
 			buildConfigurationList = 03818A99CA80BB600BD6860C /* Build configuration list for PBXProject "OTPKitDemo" */;
 			compatibilityVersion = "Xcode 14.0";
@@ -183,6 +184,9 @@
 				en,
 			);
 			mainGroup = 78ED0633846762DCD4107E96;
+			packageReferences = (
+				01E8E18C2C6B4B89000CCC2A /* XCRemoteSwiftPackageReference "otpkit-test" */,
+			);
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -468,6 +472,25 @@
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		01E8E18C2C6B4B89000CCC2A /* XCRemoteSwiftPackageReference "otpkit-test" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hilmyveradin/otpkit-test";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		01E8E18D2C6B4B89000CCC2A /* OTPKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 01E8E18C2C6B4B89000CCC2A /* XCRemoteSwiftPackageReference "otpkit-test" */;
+			productName = OTPKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9920E06F6FB4F64A162A3BFF /* Project object */;
 }

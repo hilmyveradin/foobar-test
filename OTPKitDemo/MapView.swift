@@ -6,7 +6,6 @@
 //
 
 import MapKit
-import OTPKit
 import SwiftUI
 
 struct MapView: View {

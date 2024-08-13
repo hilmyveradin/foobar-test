@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "otpkit-test",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/hilmyveradin/otpkit-test",
+      "state" : {
+        "branch" : "master",
+        "revision" : "fff5b1ca53993d6ad5a838a36e5d6d26fd16fff6"
+      }
+    }
+  ],
+  "version" : 2
+}
