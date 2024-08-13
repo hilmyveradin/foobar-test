@@ -14,23 +14,23 @@
 // * limitations under the License.
 // */
 //
-//import CoreLocation
-//import MapKit
-//import OTPKit
-//import SwiftUI
-//
-//@main
-//struct OTPKitDemoApp: App {
-//    let tripPlannerService = TripPlannerService(
-//        apiClient: RestAPI(baseURL: URL(string: "https://otp.prod.sound.obaweb.org/otp/routers/default/")!),
-//        locationManager: CLLocationManager(),
-//        searchCompleter: MKLocalSearchCompleter()
-//    )
-//
-//    var body: some Scene {
-//        WindowGroup {
-//            MapView()
-//                .environmentObject(tripPlannerService)
-//        }
-//    }
-//}
+import CoreLocation
+import MapKit
+import OTPKit
+import SwiftUI
+
+@main
+struct OTPKitDemoApp: App {
+    let tripPlannerService = TripPlannerService(
+        apiClient: RestAPI(baseURL: URL(string: "https://otp.prod.sound.obaweb.org/otp/routers/default/")!),
+        locationManager: CLLocationManager(),
+        searchCompleter: MKLocalSearchCompleter()
+    )
+
+    var body: some Scene {
+        WindowGroup {
+            MapView()
+                .environmentObject(tripPlannerService)
+        }
+    }
+}
