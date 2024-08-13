@@ -5,7 +5,6 @@ import PackageDescription
 
 let package = Package(
     name: "OTPKit",
-    
     platforms: [
         .iOS(.v17)
     ],
@@ -20,7 +19,7 @@ let package = Package(
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
-            name: "OTPKit"),
+            name: "OTPKit", exclude: ["OTPKitDemo", "OTPKitTests"]),
         .testTarget(
             name: "OTPKitTests",
             dependencies: ["OTPKit"]),
